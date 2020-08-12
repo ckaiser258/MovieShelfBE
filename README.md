@@ -24,13 +24,13 @@ This project was designed to enable a user to build and manage a library of movi
 
 ![Filter Genre](README_assets/filter_mvs.gif)
 
-* Broken images get replaced with a default
-
-![Default](README_assets/default_mvs.gif)
-
 * Edit a movie's poster
 
 ![Edit Form](README_assets/edit_mvs.gif)
+
+* Broken images get replaced with a default
+
+![Default](README_assets/default_mvs.gif)
 
 * Delete a movie
 
