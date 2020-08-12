@@ -24,7 +24,7 @@ This project was designed to enable a user to build and manage a library of movi
 
 ![Filter Genre](README_assets/filter_mvs.gif)
 
-* See the default movie poster
+* Broken images get replaced with a default
 
 ![Default](README_assets/default_mvs.gif)
 
