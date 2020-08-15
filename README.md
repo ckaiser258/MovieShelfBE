@@ -57,9 +57,13 @@ Refer to the frontend repo at https://github.com/ckaiser258/MovieShelfFE for ins
 
 ### Installation:
 
-Download this entire git repository to your computer and place in your desired install directory. If you don't have the above dependencies, in your terminal run `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` to install Homebrew, then run `brew install rbenv ruby-build` to install Ruby, then `rbenv install 2.7.1` `rbenv global 2.7.1` and `ruby -v` to confirm. Finally, to install Rails, run `gem install rails -v 6.0.2.2` `rbenv rehash` and `rails -v` to confirm. If you need to install PostgreSQL, follow their instructions here: https://postgresapp.com/.
-
-Via a terminal interface navigate to ```install_directory/frontend```. From this location execute ```bundle install``` to install all other required gem packages. 
+1. Download this entire git repository to your computer and place in your desired install directory. 
+2. If you don't have the above dependencies:
+   * In your terminal run ``ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`` to install Homebrew
+   * Run ``brew install rbenv ruby-build`` to install Ruby, then ``rbenv install 2.7.1`` ``rbenv global 2.7.1`` and ``ruby -v`` to confirm. 
+   * Finally, to install Rails, run ``gem install rails -v 6.0.2.2`` ``rbenv rehash`` and ``rails -v`` to confirm.
+   * If you need to install PostgreSQL, follow their instructions here: https://postgresapp.com/.
+3. Now, via a terminal interface navigate to install_directory/backend. From this location execute ``bundle install`` to install all other required ruby gems.
 
 ### External API Setup - Backend/Seeding your Database
 Seeding your database with test data is partially setup for you. This requires the setup of the Rapid API Movie Database with your own personal key. Visit ```https://rapidapi.com/rapidapi/api/movie-database-imdb-alternative``` to obtain a key and test your endpoints.
