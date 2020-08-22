@@ -75,7 +75,7 @@ In App.js on line 10, notice that the URL is being passed the api key via the en
 This project is hosted here: https://movieshelf.netlify.app/, and uses a Heroku backend, but if you'd like to experiment with the backend locally: 
 
 
-1. Once you've installed the frontend here: https://github.com/ckaiser258/MovieShelfFE, navigate to the installed directory and open the project with a text editor. In App.js, uncomment the commented out `localAPI` variable, and comment out the one below it. Save the file.
+1. Once you've installed the frontend here: https://github.com/ckaiser258/MovieShelfFE, navigate to the installed directory and open the project with a text editor. In App.js, uncomment the commented out `localAPI` variable, and comment out the one below it. This will change the defined backend API from Heroku to your local server. Save the file.
 2. To start hosting the local server, start by opening PostgreSQL and starting the server. 
 3. Then, in your terminal navigate to the directory you've installed this repo in. (note: You must complete External API Setup before seeding your database!) 
 4. Once there, execute `rails db:create`, `rails db:migrate`,`rails db:seed`, and finally ```rails s```. 
