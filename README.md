@@ -74,9 +74,11 @@ In App.js on line 10, notice that the URL is being passed the api key via the en
 ### Running:
 This project is hosted here: https://movieshelf.netlify.app/, and uses a Heroku backend, but if you'd like to experiment with the backend locally: 
 
-1. To start hosting the local server, start by opening PostgreSQL and starting the server. 
-2. Then, in your terminal navigate to the directory you've installed this repo in. (note: You must complete External API Setup before seeding your database!) 
-3. Once there, execute `rails db:create`, `rails db:migrate`,`rails db:seed`, and finally ```rails s```. 
+
+1. Once you've installed the frontend here: https://github.com/ckaiser258/MovieShelfFE, navigate to the installed directory and open the project with a text editor. In App.js, uncomment the commented out `localAPI` variable, and comment out the one below it. Save the file.
+2. To start hosting the local server, start by opening PostgreSQL and starting the server. 
+3. Then, in your terminal navigate to the directory you've installed this repo in. (note: You must complete External API Setup before seeding your database!) 
+4. Once there, execute `rails db:create`, `rails db:migrate`,`rails db:seed`, and finally ```rails s```. 
 
 Note: The rails server is functioning solely as a backend API for local development, so you do not need to navigate to localhost:3000 in your browser unless you'd like to test to make sure the database is running correctly. It's recommended to run the backend on port 3000 and the front end on a different port.
 
